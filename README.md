@@ -1,2 +1,2 @@
 # tlawat
-A Bot Qur'an And Tlawat Dev @WZAERE
+A free Quran bot for Muslims without a mandatory subscription
