@@ -11,7 +11,7 @@ is_bot_active = True
 def start(message):
     private = types.InlineKeyboardMarkup()
     button = types.InlineKeyboardButton("✓ تلاوة ", callback_data="quran")
-    butteon = types.InlineKeyboardButton("مطور البوت", url="https://t.me/wzaere")
+    butteon = types.InlineKeyboardButton("مطور البوت", url="https://t.me/TOPTETO")
     buttoon = types.InlineKeyboardButton("قناة البوت", url="https://t.me/wx_pm")
     private.add(button)
     private.add(butteon,buttoon)   
@@ -93,10 +93,10 @@ def msgs(message):
         voice_url = "https://t.me/telawatnader/" + str(random.randint(7, 265))
         bot.send_voice(message.chat.id, voice_url, caption="🥹♥ ¦ تـم اختيـار الشيخ عبدالباسط لـك")
             
-print("تم تشغيل البوت اذا وقف معك شي تواصل معي @wzaere")
+print("تم تشغيل البوت اذا وقف معك شي تواصل معي @TOPTETO")
 bot.polling(none_stop=True)
 """
-Dev /- @Almortagel_12
-Ch /- @AlmortagelTech
-In /- 2024/2/14
+Dev /- @TOPTETO
+Ch /- @WX_PM
+POWER BY /- MORTAGEL ⭐
 """
