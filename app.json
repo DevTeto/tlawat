@@ -1,6 +1,6 @@
 {
-	"name": "تلاوت",
-	"description": "A TeleGramBot to send messages secretly!",
+	"name": "Tlawat Bot",
+	"description": "A TeleGramBot to send messages Qran and Tlawat",
 	"logo": "https://telegra.ph/file/fc5ee4658130938270b65.jpg",
 	"keywords": [
 		"telegram",
@@ -11,7 +11,7 @@
 	"repository": "https://github.com/DevTeto/tlawat",
     "env": {
         "TG_BOT_TOKEN": {
-            "description": "Your Telegram Bot Token from @BotFather",
+            "description": "ضع هنا توكن بوتك من ‹ @botfather ›",
             "value": ""
 	   }
 	},
