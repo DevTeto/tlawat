@@ -15,7 +15,7 @@ def start(message):
     buttoon = types.InlineKeyboardButton("قناة البوت", url="https://t.me/wx_pm")
     private.add(button)
     private.add(butteon,buttoon)   
-    bot.send_photo(message.chat.id,"https://t.me/tmetme4494/2",caption="""
+    bot.send_photo(message.chat.id,"https://t.me/design1000_000/1142",caption="""
 مـرحباً عـزيزي انا بوت اسلامي اقدم صور دينيه وتلاوات باصوات وابدعات شيوخ متعددين 🤎
 
 - انقر علي الإزار إدناة الحصول علي ما تريد 👇
