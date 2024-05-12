@@ -10,29 +10,29 @@ is_bot_active = True
 @bot.message_handler(commands=["start"])
 def start(message):
     private = types.InlineKeyboardMarkup()
-    button = types.InlineKeyboardButton("✓ تلاوة ", callback_data="quran")
+    button = types.InlineKeyboardButton("‹ تلاوه عشوائيه ›", callback_data="quran")
     butteon = types.InlineKeyboardButton("مطور البوت", url="https://t.me/TOPTETO")
     buttoon = types.InlineKeyboardButton("قناة البوت", url="https://t.me/wx_pm")
     private.add(button)
     private.add(butteon,buttoon)   
     bot.send_photo(message.chat.id,"https://t.me/tmetme4494/2",caption="""
-✓ 👋 مرحبا بك عزيزي انا بوت اسلامي اقدم صور دينيه وتلاوات باصوات وابدعات شيوخ متعددين 
-لعرض المصحف ارسل رقم الصفحة
-✓ 🔍 انقر على الزر ادناة لارسال القران
+مـرحباً عـزيزي انا بوت اسلامي اقدم صور دينيه وتلاوات باصوات وابدعات شيوخ متعددين 🤎
+
+- انقر علي الإزار إدناة الحصول علي ما تريد 👇
 """, reply_markup=private)
 @bot.callback_query_handler(func=lambda call: True)
 def tylaoa(call):
     if call.data == "quran":
         voices = "https://t.me/ALMORTAGELRSK/" + str(random.randint(7, 276))
         bot.send_voice(call.message.chat.id, voices, caption="""
-✓  🌿 〈〈 صـل على سيدنا محمد 〉〉
+↢ انضم هنا فضـلاً @WX_PM 
 """)
 @bot.callback_query_handler(func=lambda call: True)
 def tylaoa(call):
     if call.data == "kottab":
         voicess = "https://t.me/telawatnader/" + str(random.randint(7, 265))
     bot.send_voice(call.message.chat.id, voicess, caption="""
-✓  🌿 〈〈 صـل على سيدنا محمد 〉〉
+↢ انضم هنا فضـلاً @WX_PM
 """)
 @bot.callback_query_handler(func=lambda call: True)
 def tylaoa(call):
@@ -44,7 +44,7 @@ def tylaoa(call):
 def starttt(call):
     if call.data == "starttt":
        bot.send_message(message.chat.id,caption="""
-مرحبا بك في قسم المصحف الرجاء ارسال رقم الصفحة لتصفح صفحات القرآن الكريم للرجوع ارسل /start
+↢ مرحبا بك في قسم المصحف الرجاء ارسال رقم الصفحة لتصفح صفحات القرآن الكريم للرجوع ارسل /start
 """)
 
 @bot.message_handler(func=lambda message: True)
@@ -91,7 +91,7 @@ def msgs(message):
     text = message.text
     if text == "عبدالباسط" or date == "nkssd":
         voice_url = "https://t.me/telawatnader/" + str(random.randint(7, 265))
-        bot.send_voice(message.chat.id, voice_url, caption="🥹♥ ¦ تـم اختيـار الشيخ عبدالباسط لـك")
+        bot.send_voice(message.chat.id, voice_url, caption="↢ تم اختيار لك الشيخ عبد الباسط عبد الصمد \n\n√")
             
 print("تم تشغيل البوت اذا وقف معك شي تواصل معي @TOPTETO")
 bot.polling(none_stop=True)
